@@ -1,10 +1,8 @@
 import './Item.css'
 
 const Item = (props) => {
-  // const [deleteText, setDeleteText] = useState('')
 
   const deleteHandler = () => {
-    // setDeleteText('(Deleted!)');
     props.onDelete(props.id)
   }
 
